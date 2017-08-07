@@ -24,7 +24,13 @@ var Adapters = {
   IceCandidate: window.RTCIceCandidate,
 
   // Promise
-  Promise: Bluebird
+  Promise: Bluebird,
+
+  // WebSocket
+  WebSocket: window.WebSocket,
+
+  // Worker
+  Worker: window.Worker
 }
 
 module.exports = Adapters;
