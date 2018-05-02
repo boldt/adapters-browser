@@ -4,6 +4,7 @@
 
 // Handle browser prefixes
 // https://www.npmjs.com/package/webrtc-adapter
+// https://github.com/webrtc/adapter
 require('webrtc-adapter');
 var Bluebird = require('bluebird');
 
