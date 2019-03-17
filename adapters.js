@@ -2,11 +2,10 @@
 // Adapters for browsers
 //
 
-// Handle browser prefixes
+// Handles browser prefixes
 // https://www.npmjs.com/package/webrtc-adapter
 // https://github.com/webrtc/adapter
 require('webrtc-adapter');
-var Bluebird = require('bluebird');
 
 var Adapters = {
   // WebCrypto API
@@ -23,9 +22,6 @@ var Adapters = {
   RTCPeerConnection: window.RTCPeerConnection,
   SessionDescription: window.RTCSessionDescription,
   IceCandidate: window.RTCIceCandidate,
-
-  // Promise
-  Promise: Bluebird,
 
   // WebSocket
   WebSocket: window.WebSocket,
